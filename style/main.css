@@ -1,0 +1,1273 @@
+.body{
+    position: relative;
+    width: 1920px;
+    height: 2544px;
+    
+    background: #F4F4F9;
+}
+.box-kurs{
+    position: absolute;
+    width: 1920px;
+    height: 1006.17px;
+    left: 0px;
+    top: -90px;
+    background: linear-gradient(244.71deg, #32228A -41.54%, #745ACD 99.61%),
+    #C4C4C4;
+}
+.bitcoin{
+
+    width: 642px;
+    height: 18px;
+    left: 389px;
+    top: 9px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.ru{
+    width: 91px;
+    height: 18px;
+    left: 1453px;
+    top: 9px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+}
+.line1{
+    
+    width: 1155px;
+    height: 1px;
+    left: 389px;
+    top: 35px;
+    
+    background: rgba(244, 244, 249, 0.5);
+}
+.box-line-kurs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+.sigma-item{
+    position: absolute;
+    width: 40.95px;
+    height: 41px;
+    left: 389px;
+    top: 60px;
+    
+    background: #FFFFFF;
+}
+.sigma-item1{
+    width: 40px;
+    height: 40px;
+    left: 400.26px;
+    top: 69.37px;
+    
+    background: linear-gradient(245.23deg, #32228A -43.18%, #745ACD 100%),
+    #FFFFFF;
+}
+.pool{
+    position: absolute;
+    width: 143px;
+    height: 23px;
+    left: 443px;
+    top: 72px;
+    
+    font-family: 'Gotham Pro';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.btc{
+    position: absolute;
+    width: 105px;
+    height: 35px;
+    left: 647px;
+    top: 64px;
+    display: flex;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+.beta-item{
+
+    width: 20px;
+    height: 20px;
+    left: 664px;
+    top: 73px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    
+    background: url(image.png);
+}
+.btc-name{
+    width: 61px;
+    height: 35px;
+    left: 691px;
+    top: 64px;
+    margin-bottom: 10px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    color: #FFFFFF;
+}
+.glavnaya-text{
+    position: absolute;
+    width: 55px;
+    height: 92px;
+    left: 809px;
+    top: 20px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.line2{
+    position: absolute;
+    width: 73px;
+    height: 2px;
+    left: 800px;
+    top: 97px;
+    
+    background: #FFFFFF;
+}
+.magazin{
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    left: 903px;
+    top: 72px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.6;
+}
+.statistika{
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 998px;
+    top: 72px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.6;
+}
+.bloki{
+    position: absolute;
+    width: 41px;
+    height: 18px;
+    left: 1111px;
+    top: 72px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.6;
+}
+.mainers{
+    position: absolute;
+    width: 63px;
+    height: 18px;
+    left: 1191px;
+    top: 72px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.6;
+}
+.pomoh{
+    position: absolute;
+width: 56px;
+height: 18px;
+left: 1292px;
+top: 72px;
+
+font-family: 'Proxima Nova';
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+.nick{
+    position: absolute;
+    width: 157px;
+    height: 35px;
+    left: 1387px;
+    top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.nick-logo{
+align-items: center;
+display: flex;
+justify-content: center;
+    
+    color:  #2A1C75;
+}
+.nick-text{
+    
+    width: 73px;
+    height: 42px;
+    left: 1433px;
+    top: 60px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%),
+    #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.box11{
+    position: absolute;
+    width: 511px;
+    height: 107px;
+    left: 389px;
+    top: 250px;
+    
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.box12{
+    position: absolute;
+    width: 628px;
+    height: 96px;
+    left: 389px;
+    top: 382px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.registration{
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 389px;
+    top: 503px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+.registration-text{
+    
+    width: 84px;
+    height: 42px;
+    left: 458px;
+    top: 503px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%),
+    #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.logo-comp{
+    position: absolute;
+    width: 629px;
+    height: 496px;
+    left: 986px;
+    top: 164px;
+    
+    background: url(Items Here.png);
+}
+
+.box21{
+    position: initial;
+    width: 346px;
+    height: 436px;
+    left: 389px;
+    top: 917px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+}
+.box-coin-line{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 137px;
+    height: 30px;
+    left: 424px;
+    top: 946px;
+    padding: 10px;
+}
+.logo-coin{
+    
+    width: 30px;
+    height: 30px;
+    left: 424px;
+    top: 946px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    background: url(image.png);
+}
+.bitkoin{
+    
+    width: 104px;
+    height: 30px;
+    left: 457px;
+    top: 946px;
+    
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
+}
+.razr{
+    position: absolute;
+    width: 91px;
+    height: 18px;
+    left: 424px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #4F4F4F;
+}
+.mainer{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 577px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.ph{
+    position: absolute;
+    width: 111px;
+    height: 25px;
+    left: 424px;
+    top: 1020px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #333333;
+}
+.mainer-chislo{
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    left: 577px;
+    top: 1020px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.stoimost-bts{
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 424px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.stoimost-usd{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 577px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.btc1{
+    position: absolute;
+    width: 52px;
+    height: 25px;
+    left: 424px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    color: #333333;
+}
+.btc-chislo{
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    left: 577px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.doxodnost{
+    position: absolute;
+    width: 210px;
+    height: 18px;
+    left: 424px;
+    top: 1116px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.doxodnost-chislo{
+    position: absolute;
+    width: 217px;
+    height: 25px;
+    left: 424px;
+    top: 1136px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.bolsheinf{
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 424px;
+    top: 1174px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #2F80ED;
+}
+.start{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 424px;
+    top: 1222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%);
+    border-radius: 5px;
+}
+.start-text{
+    
+    width: 99px;
+    height: 18px;
+    left: 513px;
+    top: 1234px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.obzor{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 424px;
+    top: 1275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #2A1C75 1px solid;
+    
+    border-radius: 5px;
+}
+.obzor-text{
+    
+    width: 43px;
+    height: 18px;
+    left: 541px;
+    top: 1287px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%),
+    #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.box22{
+    
+    width: 346px;
+    height: 436px;
+    left: 793px;
+    top: 917px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+}
+.logo-litecoin{
+position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 830px;
+    top: 945px;
+    
+    background: url(image.png);
+}
+.litekoin{
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    left: 874px;
+    top: 946px;
+    
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.box-litecoin-line{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.razr1{
+    position: absolute;
+    width: 91px;
+    height: 18px;
+    left: 831px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #4F4F4F;
+}
+.mainer1{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 984px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.ph1{
+    position: absolute;
+    width: 124px;
+    height: 25px;
+    left: 831px;
+    top: 1020px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.mainer1-chislo{
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    left: 984px;
+    top: 1020px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.stoimost-bts1{
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 831px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.stoimost-usd1{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 984px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.btc11{
+    position: absolute;
+    width: 108px;
+    height: 25px;
+    left: 831px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.btc1-chislo{
+    position: absolute;
+    width: 71px;
+    height: 25px;
+    left: 984px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+}
+.doxodnost1{
+    position: absolute;
+    width: 210px;
+    height: 18px;
+    left: 831px;
+    top: 1116px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.doxodnost1-chislo{
+    position: absolute;
+    width: 214px;
+    height: 25px;
+    left: 831px;
+    top: 1136px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.bolsheinf1{
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 831px;
+    top: 1174px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #2F80ED;
+}
+.start1{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 831px;
+    top: 1222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%);
+    border-radius: 5px;
+}
+.start1-text{
+    
+    width: 99px;
+    height: 18px;
+    left: 920px;
+    top: 1234px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #FFFFFF;
+}
+.obzor1{
+position: absolute;
+width: 276px;
+height: 42px;
+left: 831px;
+top: 1275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+    border: 1px solid #2A1C75 ;
+}
+.obzor1-text{
+    
+    width: 43px;
+    height: 18px;
+    left: 1350px;
+    top: 1287px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%),
+    #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.box23{
+
+    width: 346px;
+    height: 436px;
+    left: 1198px;
+    top: 917px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px #D5D5E3;
+    border-radius: 5px;
+}
+.box-dash-line{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.logo-dash{
+position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1233px;
+    top: 946px;
+    display: flex;
+    flex-direction: row;
+    
+    background: url(image.png);
+}
+.dash{
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    left: 1279px;
+    top: 946px;
+    
+    
+    font-family: 'Google Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.dash1{
+    position: absolute;
+    width: 91px;
+    height: 18px;
+    left: 1233px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #4F4F4F;
+}
+.mainer2{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 1386px;
+    top: 1000px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.ph2{
+position: absolute;
+width: 153px;
+height: 25px;
+left: 1233px;
+top: 1020px;
+
+font-family: 'Proxima Nova';
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+
+color: #333333;
+}
+.mainer2-chislo{
+    position: absolute;
+    width: 21px;
+    height: 25px;
+    left: 1386px;
+    top: 1020px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.stoimost-bts2{
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 1233px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.stoimost-usd2{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 1386px;
+    top: 1058px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.btc12{
+    position: absolute;
+    width: 108px;
+    height: 25px;
+    left: 1233px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.btc2-chislo{
+    position: absolute;
+    width: 79px;
+    height: 25px;
+    left: 1386px;
+    top: 1078px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.doxodnost2{
+    position: absolute;
+    width: 210px;
+    height: 18px;
+    left: 1233px;
+    top: 1116px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+.doxodnost2-chislo{
+    position: absolute;
+    width: 232px;
+    height: 25px;
+    left: 1233px;
+    top: 1136px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.bolsheinf2{
+    position: absolute;
+    width: 142px;
+    height: 18px;
+    left: 1233px;
+    top: 1174px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #2F80ED;
+}
+.start2{
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 1233px;
+    top: 1222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%);
+    border-radius: 5px;
+}
+.start2-text{
+    width: 99px;
+    height: 18px;
+    left: 1322px;
+    top: 1234px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #FFFFFF;
+}
+.obzor2{
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 276px;
+    height: 42px;
+    left: 1233px;
+    top: 1275px;
+    
+    border-radius: 5px;
+    border: #2A1C75 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.obzor2-text{
+    
+    width: 43px;
+    height: 18px;
+    left: 1350px;
+    top: 1287px;
+    
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(58.78deg, #2A1C75 -599.37%, #5639B7 81.13%),
+    #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+@media screen and (max-width: 600px) {
+    .box-kurs {
+        width: 500px;
+    }
+    .sigma {
+        width: 200px;
+    }
+    .box1{
+        width: 500px;
+    }
+    .box21 {
+        width: 150px;
+    }
+    .box22 {
+        width: 150px;
+    }
+    .box23 {
+        width: 150px;
+    }
+}
